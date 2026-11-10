@@ -180,5 +180,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 <p align="center">
-  Made with dedication using Java and Android Studio.
+  Made using Java and Android Studio.
 </p>
