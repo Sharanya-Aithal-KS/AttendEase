@@ -1,0 +1,20 @@
+AttendEase Professional Upgrade - Pass 3
+
+New in this pass:
+- Added a Faculty Reports & Export entry to the faculty workspace.
+- Added per-section report summaries: students, subjects, classes held, present marks, absent marks, and present rate.
+- Added CSV export with section, department, semester, academic year, subject, subject code, class date, student name, USN, and attendance status.
+- CSV is shared using Android's Sharesheet and AndroidX FileProvider. The generated file is stored in the app cache; no storage permission is required.
+- Added res/xml/file_paths.xml and the FileProvider declaration to AndroidManifest.xml.
+
+Compatibility:
+- No Room entity or schema changes in this pass.
+- Existing attendance records and login workflows are retained.
+- Requires AndroidX Core FileProvider, supplied transitively by AppCompat.
+
+Testing required in Android Studio:
+1. Sync Gradle and build the app.
+2. Sign in as faculty and open Attendance Reports & Export.
+3. Select a section and export its CSV.
+4. Open the CSV in Excel or Google Sheets and verify the rows.
+5. Test with an empty section and a section containing both Present and Absent records.

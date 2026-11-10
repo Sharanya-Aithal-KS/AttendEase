@@ -1,0 +1,14 @@
+<resources>
+    <style name="Theme.AttendEase" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#38251D</item>
+        <item name="colorPrimaryVariant">#241811</item>
+        <item name="colorSecondary">#D49368</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#171310</item>
+        <item name="android:navigationBarColor">#171310</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowBackground">#171310</item>
+    </style>
+</resources>

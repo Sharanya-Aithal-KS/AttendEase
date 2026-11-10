@@ -1,0 +1,17 @@
+AttendEase Professional Upgrade - Pass 4
+
+This pass adds:
+1. Edit/delete operations for sections, students and subjects with confirmation dialogs.
+   - Section deletion cascades to students, subjects, class sessions and attendance by the existing Room foreign-key rules.
+   - Student deletion removes the linked student login and attendance history.
+   - Subject deletion cascades to class sessions and attendance.
+2. Date-range filtered section reports and CSV export.
+3. Faculty/student profile display, profile name/password update, and sign-out.
+4. Light/Dark/System appearance preference persisted in SharedPreferences and applied at startup.
+5. Persistent role-aware bottom navigation for Home, Sections/History, Reports and Profile.
+
+Important:
+- Existing Room schema is unchanged in this pass.
+- Back up your database before testing destructive delete operations.
+- Verify the app in Android Studio with Gradle Sync and an emulator/device. A full Android SDK build was not run in this environment.
+- The app continues to use local Room/SQLite storage; no Firebase dependency was added.
