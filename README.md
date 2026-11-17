@@ -68,18 +68,23 @@ Built using Java and Android's Room persistence library with SQLite, AttendEase 
 
 ## Application Screenshots
 
-Screenshots of the application will be added here.
+### Landing Page
+![Landing Page](screenshots/Landing%20page.png)
 
-<!-- Add screenshots to a folder named screenshots and update the image paths below. -->
+### Faculty Login
+![Faculty Login](screenshots/Faculty%20Login.png)
 
-| Faculty Dashboard | Student Dashboard |
-|---|---|
-| Add screenshot here | Add screenshot here |
+### Faculty Dashboard
+![Faculty Dashboard](screenshots/Faculty%20Dashboard.png)
 
-| Attendance Register | Attendance Reports |
-|---|---|
-| Add screenshot here | Add screenshot here |
+### Student Login
+![Student Login](screenshots/Student%20Login.png)
 
+### Student Dashboard
+![Student Dashboard](screenshots/Student%20Dashboard.png)
+
+### Application Functionality
+![Functionality](screenshots/Functionality.png)
 ## Project Structure
 
 ```text
